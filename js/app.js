@@ -45,7 +45,7 @@ $(document).ready(function () {
         $('.after').fadeIn();
         $('.footer').css({
             position: 'absolute',
-            top: '96vh'
+            top: '131.9vh'
         });
     });
 

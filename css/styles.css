@@ -2,12 +2,13 @@ html, body {
 	font-family: Roboto, sans-serif;
 	font-weight: 300;
 	background-color: #F2F2F3;
-	width: 1200px;
-	min-height: 768px;
+	max-width: 1024px;
+	max-height: 768px;
 	margin: 0 auto;
 }
 
 .container {
+	zoom: 0.73;
 	position: relative; }
 
 .header {
@@ -30,10 +31,9 @@ html, body {
 .content {
 	position: relative;
 	top: 60px;
-	margin-left: 50px;
-	margin-right: 50px;
-	max-width: 1450px;
+	left: 11.5%;
 	z-index: 1;
+	width: 1050px;
 	background-color: #F7FAFC;
 	border-bottom: 1px solid rgb(221, 221, 223); }
 
@@ -100,7 +100,6 @@ html, body {
 	position: absolute;
 	text-align: center;
 	top: 135px;
-	width: 1100px;
 	z-index: 0; }
 
 	.after .content_header {
@@ -116,10 +115,9 @@ html, body {
 
 .options {
 	position: relative;
-	margin-left: 50px;
-	margin-right: 50px;
 	margin-bottom: 95px;
-	max-width: 1460px;
+	width: 1050px;
+	left: 11.5%;
 	top: 150px;
 	font-size: 21px;
 	line-height: 60px;
@@ -173,8 +171,8 @@ html, body {
 .footer {
 	height: 45px;
 	width: 100%;
-	position: relative;
-	top: 185px;
+	position: absolute;
+	top: 140.5%;
 	background-color: #3E4C57; }
 
 	.footer .license {
