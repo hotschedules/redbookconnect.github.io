@@ -20,11 +20,11 @@ $(document).ready(function () {
         }
 
         if (b !== -1 && b !== 0) {
-            var downloadUrl = "https://rbcplatform.artifactoryonline.com/rbcplatform/hotlinik-release/HotSchedulesLinkSetup-x86.exe";
+            var downloadUrl = "http://rbcplatform.artifactoryonline.com/rbcplatform/simple/hotlinik-release/BodhiAgentSetup-0.3.0-x86.exe";
             var text = 'for Windows x86 32 Bit';
 
             if (b === 64) {
-                downloadUrl = "https://rbcplatform.artifactoryonline.com/rbcplatform/hotlinik-release/HotSchedulesLinkSetup-x64.exe";
+                downloadUrl = "http://rbcplatform.artifactoryonline.com/rbcplatform/simple/hotlinik-release/BodhiAgentSetup-0.3.0-x64.exe";
             	text = 'for Windows x64 64 Bit';            	
             }
 
