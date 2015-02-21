@@ -8,6 +8,7 @@ html, body {
 }
 
 .container {
+	-ms-zoom: 0.73;
 	zoom: 0.73;
 	position: relative; }
 
