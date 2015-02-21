@@ -13,8 +13,6 @@ html, body {
 	position: relative; }
 
 .header {
-	-ms-zoom: 0.73;
-	zoom: 0.73;
 	width: 100%;
 	height: 75px;
 	background-color: #FAA21D; }
