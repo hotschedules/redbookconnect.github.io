@@ -1,6 +1,26 @@
 $(document).ready(function () {
     var download = $('.download');
 
+    console.log('hello');
+    var uA = navigator.userAgent;
+    if (uA.indexOf("Firefox/") != -1) {
+        var ff = parseInt(uA.split('Firefox/')[1],10);
+    }
+    else if (uA.indexOf("MSIE") != -1) {
+        var i = uA.indexOf("MSIE") + 5;
+        var msie = parseInt(uA.substring(i,i+5).split(';')[0],10);
+    }
+
+    if (ff < 14 || msie < 10) {
+        // console.log(ff,msie);
+        $('#upgrade').show();
+        $('#valid-browser').hide();
+    }
+    else {
+        // console.log(ff,msie);
+        $('#upgrade').hide();
+        $('#valid-browser').show();
+    }
     /*
         DOWNLOAD BUTTON FUNCTIONALITY 
     */
