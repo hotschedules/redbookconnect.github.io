@@ -6,16 +6,19 @@ html, body {
 	font-family: Roboto, sans-serif;
 	font-weight: 300;
 	background-color: #F2F2F3;
-	max-width: 1024px;
-	max-height: 768px;
 	margin: 0 auto;
 }
 
 .container {
 	-ms-zoom: 0.73;
 	zoom: 0.73;
-	width: 1100px;
-	position: relative; }
+	position: relative;
+}
+
+.container .row{
+	margin-left: 0px;
+	margin-right: 0px;
+}
 
 .navbar-bodhi {
     height: 55px;
@@ -67,21 +70,19 @@ html, body {
 
 .content {
 	position: relative;
-	margin-top: 60px;
-	margin-left: 25px;
 	z-index: 1;
 	width: 1050px;
-	background-color: #F7FAFC;
 	border-bottom: 1px solid rgb(221, 221, 223); }
 
 	.content .content_header {
+		font-family: Oswald;
 		font-size: 52px;
-		font-weight: 100;
+		font-weight: 400;
+		color: white;
 		line-height: 62px;
 		padding: 20px 0px;
-		background-color: white;	
-		border-top: 5px solid #E6E9EB; 
-		border-bottom: 1px solid rgb(221, 221, 223); 
+		margin-right: 300px;
+		text-align: center;
 	}
 
 	.content_header p {
@@ -90,18 +91,33 @@ html, body {
 
 	.content .iphone {
 		position: absolute;
-		left: 725px;
+		left: 800px;
 		top: 40px;
 	}
 
 	.content .install {
-		margin: 25px 50px;
+		margin: 25px 25px;
+		text-align: center;
 	}
 
 	.content .note {
+		font-family: Raleway;
 		font-size: 28px;
 		line-height: 34px;
-		font-weight: 100;
+		margin-right: 280px;
+		color: white;
+		font-weight: 200;
+		text-align: center;
+	}
+
+	.content .note-medium {
+		font-family: Raleway;
+		font-size: 21px;
+		line-height: 48px;
+		margin-right: 280px;
+		color: white;
+		font-weight: 200;
+		text-align: center;
 	}
 
 	.content .download {
@@ -110,7 +126,8 @@ html, body {
 		margin-top: 10px;
 		margin-bottom: 10px;
 		border-radius: 10px;
-		background-color: #FAA21D;
+		background-color: white;
+		margin-right: 280px;
 	}
 
 	.content .install img {
@@ -119,24 +136,28 @@ html, body {
 		left: 10px;
 		float: left;
 		height: 38px;
+		text-align: center;
 	}
 
 	.content .largeNote {
+		font-family: Raleway;
 		font-size: 28px;
 		font-weight: 100;
-		color: white;
+		color: #FAA21D;
 		line-height: 34px;
 	}
 
 	.content .smallNote {
+		font-family: Raleway;
 		font-size: 18px;
 		margin-right: 12px;
+		color: #FAA21D;
 	}
 
 .after {
 	position: absolute;
 	text-align: center;
-	top: 135px;
+	top: 84px;
 	z-index: 0; }
 
 	.after .content_header {
@@ -155,7 +176,7 @@ html, body {
 	margin-bottom: 95px;
 	width: 1050px;
 	margin-left: 12px;
-	top: 150px;
+	top: 50px;
 	font-size: 21px;
 	line-height: 60px;
 	height: 190px;
@@ -209,6 +230,30 @@ html, body {
 	text-align: center;
 	position: relative;
 	top: 45px; }
+
+.right-margin-0{
+	margin-right: 0px !important;
+}
+
+.head-hotschedules {
+	height: 80px;
+	padding: 25px;
+	margin-top: 2px;
+	background-color: white;
+	border-left: 1px solid #c0c0c0; 
+	border-top: 1px solid #c0c0c0; 
+	border-right: 1px solid #c0c0c0; 
+	border-width: 1px;
+	width: 1050px;
+}
+
+.head-hotschedules .phone{
+	margin-top: 6px;
+	color: #a0a0a0;
+	font-family: Raleway;
+	font-size: 21px;
+	font-weight: 400;
+}
 
 .footer {
     height: 40px;
