@@ -18,7 +18,7 @@ body {
 
 .navbar-bodhi {
 	height: 55px;
-	background-color: #FAA21D;
+	background-color: #99cc00 !important;
 }
 
 .navbar-bodhi .navbar-brand {
@@ -72,7 +72,7 @@ body {
 }
 
 .container .content {
-	background-color: #F7FAFC;
+	background-color: #9C0 !important;
 }
 
 .container .content .header {
@@ -137,7 +137,7 @@ text-align: right;
 }
 
 .info .item div h1 {
-	color: #FAA21D;
+	color: #FFF;
 	font-size: 26px;
 	font-weight: 200;
 	margin-bottom: 20px;
