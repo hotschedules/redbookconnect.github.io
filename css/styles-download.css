@@ -71,7 +71,7 @@ html, body {
 .content {
 	position: relative;
 	z-index: 1;
-	width: 1050px;
+	width: 1060px;
 	border-bottom: 1px solid rgb(221, 221, 223); }
 
 	.content .content_header {
@@ -110,7 +110,7 @@ html, body {
 		line-height: 34px;
 		margin-right: 280px;
 		color: white;
-		font-weight: 200;
+		font-weight: 500;
 		text-align: center;
 	}
 
@@ -120,7 +120,7 @@ html, body {
 		line-height: 48px;
 		margin-right: 280px;
 		color: white;
-		font-weight: 200;
+		font-weight: 400;
 		text-align: center;
 	}
 
@@ -248,7 +248,7 @@ html, body {
 	border-top: 1px solid #c0c0c0; 
 	border-right: 1px solid #c0c0c0; 
 	border-width: 1px;
-	width: 1050px;
+	width: 1060px;
 }
 
 .head-hotschedules .phone{
