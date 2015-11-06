@@ -41,15 +41,6 @@ body {
 	padding-bottom: 4px;
 }
 
-.head-hotschedules {
-	height: 80px;
-	padding: 25px;
-	margin-top: 2px;
-	border-color: #a0a0a0;
-	border-width: 1px;
-	background-color: white;
-}
-
 .navbar-bodhi .nav>li>a:focus, .navbar-bodhi .nav>li>a:hover {
     background-color: #FAA21D;
 }
@@ -81,7 +72,7 @@ body {
 }
 
 .container .content {
-	background-color: #99cc00;
+	background-color: #F7FAFC;
 }
 
 .container .content .header {
@@ -190,7 +181,7 @@ text-align: right;
 
 @media (min-width:992px) {
 	.navbar-bodhi .container-fluid, .container {
-
+		width: 980px;
 	}
 
 	.navbar-bodhi .container-fluid {

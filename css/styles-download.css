@@ -85,6 +85,10 @@ html, body {
 		text-align: center;
 	}
 
+	.green{
+		background-color: #99cc00 !important;
+	}
+
 	.content_header p {
 		margin-left: 50px;
 	}
